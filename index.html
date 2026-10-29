@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff0f6">
+<meta name="description" content="A tiny corner of the internet, made with love for Anuu by Himanshu.">
+<title>For Anuu ♡</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient" id="ambient" aria-hidden="true"></div>
+<div class="progress" id="progress"></div>
+<header class="nav">
+  <a class="logo" href="#home">for Anuu <span>♡</span></a>
+  <button class="menu" id="menu" aria-label="Toggle navigation">☰</button>
+  <nav id="nav"><a href="#letter">Love note</a><a href="#memories">Our moments</a><a href="#shayari">Shayari</a><a href="#game">Play with me</a></nav>
+  <button class="music-btn" id="musicBtn" aria-label="Toggle music">♫ <span id="musicLabel">Music</span></button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy reveal">
+    <span class="pill"><span class="pulse"></span> not a special day. just a special girl.</span>
+    <h1>Hey, <em>Anuu</em> <span class="pink-heart">♥</span></h1>
+    <p class="lead">Aaj koi occasion nahi hai, madam. Bas tum yaad aa gayi… toh socha internet ke ek kone ko tumhare naam kar doon. 🥹</p>
+    <div class="actions"><a class="btn main-btn" href="#letter">Open your little letter <span>↘</span></a><button class="btn soft-btn" id="sprinkleBtn">Tap for butterflies ✨</button></div>
+    <p class="small">Warning: may contain excessive pyaar, bad jokes and one very smitten Himanshu.</p>
+  </div>
+  <div class="hero-visual reveal" aria-label="Animated pink love letter">
+    <span class="doodle doodle-a">✦</span><span class="doodle doodle-b">✧</span><span class="doodle doodle-c">♡</span>
+    <div class="halo"></div><div class="mini-heart mh1">♥</div><div class="mini-heart mh2">♥</div>
+    <button class="envelope" id="envelope" aria-label="Open the love letter">
+      <span class="letter-in"><small>JUST BECAUSE</small><b>For Anuu</b><span>from Himanshu ♡</span></span>
+      <span class="flap"></span><span class="envelope-front"></span><span class="seal">H</span>
+    </button>
+    <p class="visual-caption">tap the envelope, cutie 💌</p>
+  </div>
+</section>
+
+<section class="section letter-section" id="letter">
+  <div class="section-title reveal"><span class="eyebrow">a tiny note from my heart</span><h2>For my favourite person <span>💌</span></h2><p>Read till the end. Yes, that's an order. (A very cute one.)</p></div>
+  <article class="letter paper reveal">
+    <div class="paper-top"><span>♡ a note for Anuu</span><span>✿ ✿ ✿</span></div>
+    <p class="dear">Dear Anuu,</p>
+    <div class="typed-copy" id="typedCopy">
+      <p>I don't need a birthday, an anniversary, or any big reason to tell you this. I just love you, and sometimes that feeling gets so big that a normal “I love you” doesn't feel like enough.</p>
+      <p>You make ordinary days feel softer. Your messages can fix my mood, your smile can distract me mid-sentence, and you somehow make me miss you even when we've only just said bye. Honestly, very unfair behaviour. 😤💗</p>
+      <p>I can't promise every day will be perfect, but I can promise to keep showing up, keep listening, keep making you laugh, and keep reminding you that you matter to me — even on the days you forget it yourself.</p>
+      <p>So this website is not for a special occasion. It's for a special person. For you, Anuu. My favourite notification, my favourite smile, and my favourite little troublemaker. 🫶</p>
+    </div>
+    <p class="signoff">Yours, with all my heart,<br><strong>Himanshu ♡</strong></p>
+    <button class="text-btn" id="psBtn">P.S. there's one more thing… 👀</button>
+    <p class="secret" id="letterSecret" hidden>If I could keep one notification forever, it would be yours. And yes, you may now act smug about it. 🙄💘</p>
+  </article>
+</section>
+
+<section class="section memories-section" id="memories">
+  <div class="section-title reveal"><span class="eyebrow">little moments, big feelings</span><h2>Our little world <span>📸</span></h2><p>Five moments I want to keep close. Tap any photo to see it bigger.</p></div>
+  <div class="gallery">
+    <button class="photo-card tall reveal" data-photo="assets/memory-1.jpeg"><img src="assets/memory-1.jpeg" alt="Himanshu and Anuu together"><span class="tape"></span><span class="photo-label">my favourite view ♡</span></button>
+    <button class="photo-card reveal" data-photo="assets/memory-2.jpeg"><img src="assets/memory-2.jpeg" alt="A happy moment together"><span class="photo-label">that smile 🥹</span></button>
+    <button class="photo-card tilt reveal" data-photo="assets/memory-3.jpeg"><img src="assets/memory-3.jpeg" alt="A mirror photo together"><span class="photo-label">just us 💗</span></button>
+    <button class="photo-card reveal" data-photo="assets/memory-4.jpeg"><img src="assets/memory-4.jpeg" alt="A sweet moment together"><span class="photo-label">hold this moment</span></button>
+    <button class="photo-card tilt reveal" data-photo="assets/memory-5.jpeg"><img src="assets/memory-5.jpeg" alt="A full-length mirror photo together"><span class="photo-label">my kind of forever ✨</span></button>
+  </div>
+  <p class="gallery-note">Every photo is a little “I’m glad it’s you.” <span>♡</span></p>
+</section>
+
+<section class="section shayari-section" id="shayari">
+  <div class="section-title reveal"><span class="eyebrow">for my shayari wali girl</span><h2>Thodi si shayari ✍️</h2><p>Warning: writer is very much in love and only slightly dramatic.</p></div>
+  <div class="shayari-card reveal"><span class="big-quote">“</span><p id="shayariText">Teri hansi se din mera roshan sa ho jaaye,<br>tera ek message aaye toh dil bachcha sa ho jaaye.<br>Itna bhi mat muskuraaya kar, jaan-e-ada,<br>kahin tera yeh fan phir se tera deewana ho jaaye. 💗</p><span class="shayari-by">— Himanshu, acting normal around Anuu</span><button class="btn soft-btn" id="newShayari">Ek aur sunaun? ✨</button></div>
+</section>
+
+<section class="section game-section" id="game">
+  <div class="section-title reveal"><span class="eyebrow">very serious research</span><h2>Ek important sawaal 😏</h2><p>Answer honestly, Anuu. I definitely won't tease you. (I will.)</p></div>
+  <div class="game-box reveal"><div class="game-face" id="gameFace">🥺</div><h3 id="gameQuestion">How much do you like your Himanshu?</h3><div class="answer-row" id="answers"><button class="btn main-btn answer" data-a="mad">Pagal jitna 💗</button><button class="btn soft-btn answer" data-a="lots">Bahut saara 🙈</button><button class="btn blush-btn answer" data-a="secret">Secret hai 😈</button></div><p class="game-result" id="gameResult" aria-live="polite">Choose your answer, miss heart-stealer.</p><button class="text-btn" id="again" hidden>One more round ↻</button></div>
+</section>
+
+<section class="final-section">
+  <div class="final-stars" aria-hidden="true">✦　♡　✧　♡　✦</div><span class="eyebrow">no occasion. just us.</span>
+  <h2>One last thing,<br><em>Anuu…</em></h2>
+  <p>In case the whole website didn't make it obvious enough…</p>
+  <button class="btn main-btn big-surprise" id="finalBtn">Tap here, cutie 🎁</button>
+  <div class="final-reveal" id="finalReveal" hidden><div class="big-love">I LOVE YOU, ANUU</div><p>Not just today. Not just on special days.<br>Just… always in all the little ways. ♡</p><span>— your Himanshu 🫶</span></div>
+</section>
+</main>
+<footer><div class="footer-heart">♡</div><p>Made with too much love by Himanshu, just for Anuu.</p><small>Some days are ordinary. You never are. 💗</small></footer>
+
+<div class="lightbox" id="lightbox" hidden><button class="close-lightbox" id="closeLightbox" aria-label="Close photo">×</button><img id="lightboxImg" alt="Memory enlarged"><p>one of my favourite little moments ♡</p></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<audio id="music" loop preload="none"></audio>
+<script src="script.js"></script>
+</body>
+</html>
